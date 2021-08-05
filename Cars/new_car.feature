@@ -15,9 +15,9 @@ Scenario: Test driving a new car
   And I show my drivers license and car insurance
   Then I can take the car for a test drivers
 
-  @HDXTS-1234
-  Scenario: Shopping for a used car
-     Given the used car dealership website is displayed
-     When {car_make} is entered
-        | Car Make | {Ford} | {Chevrolet} | {Toyota}|
-     Then results for {car_make} cars are returned
+@HDXTS-1234
+Scenario: Shopping for a used car
+ Given the used car dealership website is displayed
+ When {car_make} is entered
+    | Car Make | {Ford} | {Chevrolet} | {Toyota}|
+ Then results for {car_make} cars are returned
